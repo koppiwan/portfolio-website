@@ -66,6 +66,7 @@ a:hover{
 logo, :hover{
     cursor: default;
 }
+/*hamburger icon*/
 
 #hamburger-nav {
     display: none;
@@ -146,3 +147,59 @@ logo, :hover{
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+/*Profile section*/
+
+section {
+    padding: 10px;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/*.section-container {
+    display: flex;
+}*/
+
+/* profile*/
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile-pic{
+    display: flex;
+    height: 400px;
+    width: 200px;
+    margin:auto 0;
+}
+
+.text{
+    align-self: center;
+    text-align: center;
+}
+
+.name{
+    font-size: 30px;
+}
+.hey{
+    font-weight: 600;
+}
+
+.skill{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 1rem;
+
+}
+
+.btn-box{
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+
